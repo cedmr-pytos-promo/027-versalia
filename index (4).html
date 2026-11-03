@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Versalía — Cuaderno de campo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="portada">
+  <div class="portada-marco">
+    <p class="eyebrow">Cuaderno de campo</p>
+    <h1 class="frase">Versalía</h1>
+    <p class="subfrase">un verso encontrado es un lugar al que se vuelve</p>
+  </div>
+</header>
+
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+<label for="menu-toggle" class="boton-menu" aria-label="Abrir índice del cuaderno">
+  <span></span>
+  <span></span>
+  <span></span>
+</label>
+
+<nav class="indice" aria-label="Índice del cuaderno">
+  <p class="indice-titulo">Índice</p>
+  <ol>
+    <li><a href="#equipo">Equipo</a></li>
+    <li><a href="#justificacion">Justificación</a></li>
+    <li><a href="#problematica">Problemática y oportunidad</a></li>
+    <li><a href="#ambito">Ámbito del proyecto</a></li>
+    <li><a href="#objetivos">Objetivos</a></li>
+    <li><a href="#viabilidad">Viabilidad</a></li>
+    <li><a href="#roles">Roles y responsabilidades</a></li>
+    <li><a href="#cronograma">Cronograma reducido</a></li>
+    <li><a href="#cronograma-extendido">Cronograma extendido</a></li>
+    <li><a href="#prototipo">Prototipo</a></li>
+  </ol>
+</nav>
+<label for="menu-toggle" class="fondo-menu"></label>
+
+<main>
+
+  <section id="equipo" class="bloque">
+    <h2><span class="num">01</span>Integrantes y roles asumidos</h2>
+    <div class="equipo-lista">
+      <article class="persona">
+        <h3>Pablo Ovando</h3>
+        <p class="rol">Coordinación y contenidos</p>
+        <p>Encargado de organizar el cronograma, redactar la línea editorial y curar los poemas que se publican en el sitio.</p>
+      </article>
+      <article class="persona">
+        <h3>Stephan Centurión</h3>
+        <p class="rol">Presentador del proyecto</p>
+        <p>Encargado de las presentaciones orales en los avances.</p>
+      </article>
+      <article class="persona">
+        <h3>Sergio Díaz</h3>
+        <p class="rol">Desarrollo técnico</p>
+        <p>Encargado de la implementación en HTML y CSS, y del correcto funcionamiento del sitio.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="justificacion" class="bloque">
+    <h2><span class="num">02</span>Justificación del proyecto</h2>
+    <p>Versalía nace de la necesidad de dar un espacio propio a la poesía dentro de internet, en un entorno donde la mayoría de contenidos favorecen la inmediatez y no la lectura pausada. El proyecto se justifica porque ofrece a autoras y autoras emergentes un lugar de publicación cuidado, y a los lectores un espacio de encuentro con la palabra poética fuera del ruido de las redes sociales.</p>
+  </section>
+
+  <section id="problematica" class="bloque">
+    <h2><span class="num">03</span>Problemática u oportunidad</h2>
+    <p>Actualmente no existe un espacio digital sencillo, accesible y estéticamente cuidado donde publicar y leer poesía de forma ordenada. Muchos textos quedan dispersos en redes sociales, blogs abandonados o documentos que no circulan. Esto representa una oportunidad: construir un sitio propio, ligero y fácil de mantener, que centralice la producción poética del proyecto y la presente con una identidad visual coherente.</p>
+  </section>
+
+  <section id="ambito" class="bloque">
+    <h2><span class="num">04</span>Delimitación del ámbito del proyecto</h2>
+    <p>El proyecto abarca el diseño y desarrollo front-end (HTML y CSS) de un sitio web estático dedicado a la publicación de poemas. Incluye la definición de la identidad visual, la estructura de navegación y las secciones principales del sitio. Queda fuera del alcance la implementación de bases de datos, sistemas de usuarios o funcionalidades de backend, así como la promoción o difusión del sitio una vez publicado.</p>
+  </section>
+
+  <section id="objetivos" class="bloque">
+    <h2><span class="num">05</span>Objetivos</h2>
+    <h3 class="subtitulo">Objetivo general</h3>
+    <p>Diseñar y desarrollar el sitio web Versalía como una plataforma digital para la publicación y lectura de poemas, con una identidad visual propia.</p>
+    <h3 class="subtitulo">Objetivos específicos</h3>
+    <ul class="lista-objetivos">
+      <li>Definir la estructura de contenidos y navegación del sitio de poemas.</li>
+      <li>Diseñar un prototipo visual acorde a la identidad de Versalía.</li>
+      <li>Maquetar el sitio con HTML y CSS siguiendo el prototipo aprobado.</li>
+      <li>Documentar el proceso de trabajo en el presente cuaderno de campo.</li>
+    </ul>
+  </section>
+
+  <section id="viabilidad" class="bloque">
+    <h2><span class="num">06</span>Viabilidad del proyecto</h2>
+    <p>El proyecto es viable porque se apoya en tecnologías web básicas (HTML y CSS) que no requieren infraestructura de servidor ni costos de licencias. El equipo cuenta con los conocimientos necesarios para su desarrollo y el tiempo disponible es suficiente para cumplir las fases planteadas en el cronograma. No se identifican riesgos técnicos ni económicos que comprometan su realización.</p>
+  </section>
+
+  <section id="roles" class="bloque">
+    <h2><span class="num">07</span>Roles y responsabilidades</h2>
+    <div class="tabla-roles" role="table" aria-label="Roles y responsabilidades del equipo">
+      <div class="fila encabezado" role="row">
+        <span role="columnheader">Integrante</span>
+        <span role="columnheader">Rol</span>
+        <span role="columnheader">Responsabilidades</span>
+      </div>
+      <div class="fila" role="row">
+        <span role="cell">Pablo Ovando</span>
+        <span role="cell">Coordinación y contenidos</span>
+        <span role="cell">Organizar tareas, redactar textos y curar los poemas publicados.</span>
+      </div>
+      <div class="fila" role="row">
+        <span role="cell">Stephan Centurión</span>
+        <span role="cell">Presentador del proyecto</span>
+        <span role="cell">Comunicar avances dentro de las presentaciones y en la defensa del proyectp.</span>
+      </div>
+      <div class="fila" role="row">
+        <span role="cell">Sergio Díaz</span>
+        <span role="cell">Desarrollo técnico</span>
+        <span role="cell">Maquetar el sitio en HTML y CSS, revisar funcionamiento.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="cronograma" class="bloque">
+    <h2><span class="num">08</span>Cronograma reducido</h2>
+    <ol class="linea-tiempo">
+      <li>
+        <span class="lt-punto">1</span>
+        <div class="lt-contenido">
+          <h3>Investigación y planificación</h3>
+          <p>Definición de la idea, justificación y objetivos del proyecto.</p>
+        </div>
+      </li>
+      <li>
+        <span class="lt-punto">2</span>
+        <div class="lt-contenido">
+          <h3>Diseño del prototipo</h3>
+          <p>Elaboración de la propuesta visual del sitio de poemas.</p>
+        </div>
+      </li>
+      <li>
+        <span class="lt-punto">3</span>
+        <div class="lt-contenido">
+          <h3>Desarrollo</h3>
+          <p>Maquetación del sitio en HTML y CSS a partir del prototipo.</p>
+        </div>
+      </li>
+      <li>
+        <span class="lt-punto">4</span>
+        <div class="lt-contenido">
+          <h3>Revisión y cierre</h3>
+          <p>Pruebas, ajustes finales y entrega del cuaderno de campo.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="cronograma-extendido" class="bloque">
+    <h2><span class="num">09</span>Cronograma extendido</h2>
+    <p>Línea de tiempo detallada por fases, con actividad, fecha estimada, responsable(s) y recursos necesarios.</p>
+
+    <div class="cronograma-timeline">
+
+      <h3 class="fase-titulo">Fase I — Diseño y planificación inicial (2025)</h3>
+      <ol class="timeline-vert">
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>1</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">15/9/2025</span>
+            <h4>Ideación y formulación del anteproyecto</h4>
+            <p><strong>Responsable(s):</strong> Coordinador/a general</p>
+            <p><strong>Recursos:</strong> Computadora, conexión a internet, guía institucional</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>2</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">30/9/2025</span>
+            <h4>Diagnóstico preliminar y validación del problema</h4>
+            <p><strong>Responsable(s):</strong> Todo el equipo</p>
+            <p><strong>Recursos:</strong> Encuestas digitales, entrevistas, análisis de contexto</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>3</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">20/10/2025</span>
+            <h4>Presentación del anteproyecto en la ICIENTEC</h4>
+            <p><strong>Responsable(s):</strong> Todo el equipo</p>
+            <p><strong>Recursos:</strong> Presentación PowerPoint, afiches, prototipo conceptual</p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="fase-titulo">Fase II — Desarrollo e implementación (2026)</h3>
+      <ol class="timeline-vert">
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>4</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">15/4/2026</span>
+            <h4>Diseño técnico y estructural de la aplicación</h4>
+            <p><strong>Responsable(s):</strong> Encargada técnica</p>
+            <p><strong>Recursos:</strong> Software de diseño, diagramas UML, repositorio Git</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>5</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">20/7/2026</span>
+            <h4>Desarrollo del prototipo funcional (MVP)</h4>
+            <p><strong>Responsable(s):</strong> Todo el equipo</p>
+            <p><strong>Recursos:</strong> IDE, base de datos, conexión a internet</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>6</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">15/9/2026</span>
+            <h4>Integración y estabilización del sistema</h4>
+            <p><strong>Responsable(s):</strong> Todo el equipo</p>
+            <p><strong>Recursos:</strong> Entorno de pruebas, checklist de QA</p>
+          </div>
+        </li>
+        <li class="timeline-item hito">
+          <div class="ti-marcador"><span>7</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">1/10/2026</span>
+            <h4>Implementación piloto <span class="ti-etiqueta-hito">Hito</span></h4>
+            <p class="ti-sub">(despliegue inicial ICIENTEC)</p>
+            <p><strong>Responsable(s):</strong> Coordinador/a y encargada técnica</p>
+            <p><strong>Recursos:</strong> Hosting o servidor, dispositivos de prueba, manual técnico</p>
+          </div>
+        </li>
+      </ol>
+
+      <h3 class="fase-titulo">Fase III — Pruebas, ajustes y cierre (2027)</h3>
+      <ol class="timeline-vert">
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>8</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">15/2/2027</span>
+            <h4>Pruebas de usabilidad – Ronda 1</h4>
+            <p><strong>Responsable(s):</strong> Responsable de evaluación</p>
+            <p><strong>Recursos:</strong> Guion de tareas, formularios SUS, analíticas de uso</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>9</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">30/3/2027</span>
+            <h4>Ajustes e iteraciones según resultados</h4>
+            <p><strong>Responsable(s):</strong> Todo el equipo</p>
+            <p><strong>Recursos:</strong> Bitácora de observaciones, tablero Kanban</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>10</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">15/6/2027</span>
+            <h4>Pruebas de validación final</h4>
+            <p><strong>Responsable(s):</strong> Responsable de evaluación</p>
+            <p><strong>Recursos:</strong> Nuevos grupos de usuarios, registros y reportes</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="ti-marcador"><span>11</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">1/10/2027</span>
+            <h4>Preparación de presentación y demo final</h4>
+            <p><strong>Responsable(s):</strong> Encargado/a de comunicación y presentación final</p>
+            <p><strong>Recursos:</strong> Proyector, afiches, video demostrativo</p>
+          </div>
+        </li>
+        <li class="timeline-item hito">
+          <div class="ti-marcador"><span>12</span></div>
+          <div class="ti-cuerpo">
+            <span class="ti-fecha">14/10/2027</span>
+            <h4>Entrega del informe final y defensa <span class="ti-etiqueta-hito">Hito</span></h4>
+            <p class="ti-sub">(ICIENTEC)</p>
+            <p><strong>Responsable(s):</strong> Todo el equipo</p>
+            <p><strong>Recursos:</strong> Copias impresas, encuadernación y soporte digital</p>
+          </div>
+        </li>
+      </ol>
+
+    </div>
+  </section>
+<section id="prototipo" class="bloque">
+    <h2><span class="ti-num">10</span>Prototipo del sitio de poemas</h2>
+    <p>
+        Propuesta interactiva del sitio web Versalia.
+        Accede al prototipo para explorar su diseño,
+        conocer sus secciones y experimentar su funcionamiento.
+    </p>
+    <a
+        href="https://versaliapy.github.io/Versalia/"
+        class="tarjeta-prototipo"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Acceder al prototipo de Versalia"
+    >
+        <div class="prototipo-icono">
+        </div>
+        <span class="prototipo-etiqueta">
+            PROYECTO DIGITAL
+        </span>
+        <h3>Versalia</h3>
+        <p>
+            El lugar donde los versos cobran vida.
+            Explora la experiencia interactiva del sitio web.
+        </p>
+        <span class="prototipo-boton">
+            Explorar prototipo ↗
+        </span>
+        <span class="prototipo-indicacion">
+            Se abrirá en una nueva pestaña
+        </span>
+    </a>
+
+</section>
+
+</body>
+</html>
